@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS studenthub_pr9
+  CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE studenthub_pr9;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    enrollment_number VARCHAR(30) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

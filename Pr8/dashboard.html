@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+
+    <header>
+        <h1>StudentHub</h1>
+        <p>Student Dashboard</p>
+
+       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+       <nav id="main-nav" aria-label="Main Navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="events.html">Events</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+    <a href="faq.html">FAQ</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="students.html">Student Directory</a>
+</nav>
+    </header>
+
+    <div class="interaction-toolbar">
+        <button id="theme-toggle" type="button" aria-pressed="false">Switch to Dark Theme</button>
+        <button id="dismiss-notice" type="button" aria-label="Dismiss announcement">Dismiss announcement ✕</button>
+    </div>
+    <div id="notice-banner" class="notice-banner" role="status">
+        <span>Welcome to StudentHub! Explore student services and campus updates.</span>
+    </div>
+
+    <main id="main-content">
+<section>
+            <h2>Welcome to Your Dashboard</h2>
+            <p>Here you can view your student information and activities.</p>
+        </section>
+
+        <section>
+            <h2>Student Information</h2>
+
+            <article>
+                <h3>Academic Information</h3>
+                <p>Course: Artificial Intelligence and Machine Learning</p>
+                <p>Semester: 3</p>
+            </article>
+
+            <article>
+                <h3>Upcoming Events</h3>
+                <p>Check the Events page for upcoming college activities.</p>
+                <a href="events.html">View Events</a>
+            </article>
+
+            <article>
+                <h3>Profile</h3>
+                <p>View and manage your student profile.</p>
+                <a href="profile.html">View Profile</a>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="feedback.html">Give Feedback</a></li>
+            </ul>
+        </aside>
+</main>
+
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

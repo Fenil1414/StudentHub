@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+
+    <header>
+        <h1>StudentHub</h1>
+        <p>Administrator Panel</p>
+
+       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+       <nav id="main-nav" aria-label="Main Navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="events.html">Events</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+    <a href="faq.html">FAQ</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="students.html">Student Directory</a>
+</nav>
+    </header>
+
+    <div class="interaction-toolbar">
+        <button id="theme-toggle" type="button" aria-pressed="false">Switch to Dark Theme</button>
+        <button id="dismiss-notice" type="button" aria-label="Dismiss announcement">Dismiss announcement ✕</button>
+    </div>
+    <div id="notice-banner" class="notice-banner" role="status">
+        <span>Welcome to StudentHub! Explore student services and campus updates.</span>
+    </div>
+
+    <main id="main-content">
+<section>
+            <h2>Admin Dashboard</h2>
+            <p>Manage StudentHub users, events and portal information.</p>
+        </section>
+
+        <section>
+            <h2>Administration Tasks</h2>
+
+            <article>
+                <h3>Manage Students</h3>
+                <p>View and manage registered student accounts.</p>
+            </article>
+
+            <article>
+                <h3>Manage Events</h3>
+                <p>Create, update and manage campus events.</p>
+            </article>
+
+            <article>
+                <h3>View Feedback</h3>
+                <p>Review feedback submitted by students.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Admin Notice</h2>
+            <p>Only authorized administrators should access this page.</p>
+        </aside>
+</main>
+
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

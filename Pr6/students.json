@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Shah",
+    "email": "aarav.shah@example.com",
+    "course": "AIML",
+    "year": "Second Year"
+  },
+  {
+    "id": 2,
+    "name": "Diya Patel",
+    "email": "diya.patel@example.com",
+    "course": "Computer Engineering",
+    "year": "First Year"
+  },
+  {
+    "id": 3,
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@example.com",
+    "course": "AIML",
+    "year": "Second Year"
+  },
+  {
+    "id": 4,
+    "name": "Anaya Desai",
+    "email": "anaya.desai@example.com",
+    "course": "Information Technology",
+    "year": "Third Year"
+  },
+  {
+    "id": 5,
+    "name": "Krish Joshi",
+    "email": "krish.joshi@example.com",
+    "course": "Computer Engineering",
+    "year": "Second Year"
+  },
+  {
+    "id": 6,
+    "name": "Mira Trivedi",
+    "email": "mira.trivedi@example.com",
+    "course": "AIML",
+    "year": "First Year"
+  },
+  {
+    "id": 7,
+    "name": "Dev Parmar",
+    "email": "dev.parmar@example.com",
+    "course": "Information Technology",
+    "year": "Fourth Year"
+  },
+  {
+    "id": 8,
+    "name": "Ishita Rao",
+    "email": "ishita.rao@example.com",
+    "course": "Computer Engineering",
+    "year": "Third Year"
+  },
+  {
+    "id": 9,
+    "name": "Arjun Nair",
+    "email": "arjun.nair@example.com",
+    "course": "AIML",
+    "year": "Second Year"
+  },
+  {
+    "id": 10,
+    "name": "Sara Khan",
+    "email": "sara.khan@example.com",
+    "course": "Information Technology",
+    "year": "First Year"
+  },
+  {
+    "id": 11,
+    "name": "Vivaan Shah",
+    "email": "vivaan.shah@example.com",
+    "course": "Computer Engineering",
+    "year": "Fourth Year"
+  },
+  {
+    "id": 12,
+    "name": "Myra Patel",
+    "email": "myra.patel@example.com",
+    "course": "AIML",
+    "year": "Third Year"
+  }
+]

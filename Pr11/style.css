@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 25px;
+    background: #eef2f7;
+    color: #1c2735;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #173b68;
+}
+
+.button,
+button {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 5px;
+    background: #174a7e;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.secondary {
+    background: #596779;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #bdc7d4;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.filters input {
+    flex: 1;
+    min-width: 200px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    background: white;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e5ec;
+    text-align: left;
+    white-space: nowrap;
+}
+
+th {
+    background: #173b68;
+    color: white;
+}
+
+tr:hover {
+    background: #f6f8fb;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.actions a {
+    color: #174a7e;
+}
+
+.actions form {
+    margin: 0;
+}
+
+.danger {
+    background: #bd3030;
+    padding: 7px 10px;
+}
+
+.form-card {
+    max-width: 520px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(20, 35, 55, 0.1);
+}
+
+.form-card label {
+    display: block;
+    margin: 15px 0 6px;
+    font-weight: bold;
+}
+
+.form-card input,
+.form-card select {
+    width: 100%;
+}
+
+.form-card button {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.success,
+.error {
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.success {
+    background: #e1f4e7;
+    color: #205c35;
+}
+
+.error {
+    background: #fde8e7;
+    color: #922b25;
+}

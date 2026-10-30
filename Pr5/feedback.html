@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+
+    <header>
+        <h1>StudentHub</h1>
+        <p>Student Feedback</p>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+       <nav id="main-nav" aria-label="Main Navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="events.html">Events</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+    <a href="faq.html">FAQ</a>
+    <a href="feedback.html">Feedback</a>
+</nav>
+    </header>
+
+    <div class="interaction-toolbar">
+        <button id="theme-toggle" type="button" aria-pressed="false">Switch to Dark Theme</button>
+        <button id="dismiss-notice" type="button" aria-label="Dismiss announcement">Dismiss announcement ✕</button>
+    </div>
+    <div id="notice-banner" class="notice-banner" role="status">
+        <span>Welcome to StudentHub! Explore student services and campus updates.</span>
+    </div>
+
+    <main id="main-content">
+<section>
+            <h2>Give Your Feedback</h2>
+            <p>
+                Your feedback helps us improve the StudentHub portal.
+            </p>
+
+            <form>
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating">
+                        <option value="">Select Rating</option>
+                        <option value="5">Excellent</option>
+                        <option value="4">Very Good</option>
+                        <option value="3">Good</option>
+                        <option value="2">Needs Improvement</option>
+                        <option value="1">Poor</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="feedback">Your Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="6" cols="40" required></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">Submit Feedback</button>
+
+            </form>
+        </section>
+
+        <aside>
+            <h2>Thank You</h2>
+            <p>
+                We appreciate your time and suggestions.
+            </p>
+        </aside>
+</main>
+
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

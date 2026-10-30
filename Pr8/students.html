@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StudentHub - Student Directory</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header>
+    <h1>StudentHub</h1>
+    <p>Student Directory — JSON Data, Search and Filter</p>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+    <nav id="main-nav" aria-label="Main Navigation">
+      <a href="index.html">Home</a><a href="about.html">About</a><a href="register.html">Register</a><a href="login.html">Login</a><a href="dashboard.html">Dashboard</a><a href="events.html">Events</a><a href="profile.html">Profile</a><a href="contact.html">Contact</a><a href="admin.html">Admin</a><a href="faq.html">FAQ</a><a href="feedback.html">Feedback</a><a href="students.html" aria-current="page">Student Directory</a>
+    </nav>
+  </header>
+  <div class="interaction-toolbar">
+    <button id="theme-toggle" type="button" aria-pressed="false">Switch to Dark Theme</button>
+    <button id="dismiss-notice" type="button" aria-label="Dismiss announcement">Dismiss announcement ✕</button>
+  </div>
+  <div id="notice-banner" class="notice-banner" role="status">Explore the student directory. Search by name, email, course, or year.</div>
+  <main id="main-content">
+    <section style="grid-column:1/-1">
+      <h2>Student Directory</h2>
+      <p>Student records are loaded from the separate <code>students.json</code> file using the JavaScript Fetch API.</p>
+      <div class="student-data-tools">
+        <div class="form-field"><label for="student-search">Search students</label><input id="student-search" type="search" placeholder="Search name, email, course, year"></div>
+        <div class="form-field"><label for="course-filter">Filter by course</label><select id="course-filter"><option value="">All courses</option></select></div>
+      </div>
+      <p id="data-status" class="data-status" role="status" aria-live="polite">Loading student data...</p>
+      <div id="student-grid" class="student-grid" aria-live="polite"></div>
+    </section>
+  </main>
+  <footer><p>&copy; 2026 StudentHub. All rights reserved.</p></footer>
+</body>
+</html>

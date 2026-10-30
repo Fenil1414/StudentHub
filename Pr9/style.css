@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    color: #202a36;
+    line-height: 1.6;
+}
+header {
+    background: #183153;
+    color: #fff;
+    padding: 24px 16px;
+    text-align: center;
+}
+header h1 { margin-bottom: 4px; }
+main {
+    width: min(100% - 32px, 680px);
+    margin: 32px auto;
+}
+.card {
+    background: #fff;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+h2 { margin-bottom: 18px; }
+label {
+    display: block;
+    font-weight: 700;
+    margin: 14px 0 6px;
+}
+input {
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #bcc6d2;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input:focus {
+    outline: 2px solid #4a90e2;
+    border-color: #4a90e2;
+}
+button {
+    margin-top: 20px;
+    padding: 12px 18px;
+    border: 0;
+    border-radius: 5px;
+    background: #245da8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover { background: #183f76; }
+.message {
+    margin: 14px 0;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
+.message ul { margin: 6px 0 0 22px; }
+.success { color: #176534; background: #e0f5e8; }
+.error { color: #8f1d1d; background: #fde8e8; }
+footer {
+    text-align: center;
+    padding: 18px;
+    color: #4b5563;
+}
+@media (max-width: 480px) {
+    .card { padding: 20px; }
+}

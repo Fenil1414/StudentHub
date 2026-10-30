@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentHub - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+
+    <header>
+        <h1>StudentHub</h1>
+        <p>Student Portal</p>
+
+       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+       <nav id="main-nav" aria-label="Main Navigation">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Login</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="events.html">Events</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin</a>
+    <a href="faq.html">FAQ</a>
+    <a href="feedback.html">Feedback</a>
+    <a href="students.html">Student Directory</a>
+</nav>
+    </header>
+
+    <div class="interaction-toolbar">
+        <button id="theme-toggle" type="button" aria-pressed="false">Switch to Dark Theme</button>
+        <button id="dismiss-notice" type="button" aria-label="Dismiss announcement">Dismiss announcement ✕</button>
+    </div>
+    <div id="notice-banner" class="notice-banner" role="status">
+        <span>Welcome to StudentHub! Explore student services and campus updates.</span>
+    </div>
+
+    <main id="main-content">
+<section>
+            <h2>Welcome to StudentHub</h2>
+            <p>
+                StudentHub is a portal that helps students manage
+                academic information, events, profiles and feedback.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Services</h2>
+
+            <article>
+                <h3>Academic Dashboard</h3>
+                <p>Access your academic information and activities.</p>
+            </article>
+
+            <article>
+                <h3>Campus Events</h3>
+                <p>View upcoming college events and activities.</p>
+            </article>
+
+            <article>
+                <h3>Student Profile</h3>
+                <p>Manage your personal student information.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Announcements</h2>
+            <p>Check StudentHub regularly for important announcements.</p>
+        </aside>
+</main>
+
+
+
+    <section class="slider" aria-label="StudentHub highlights">
+        <h2>StudentHub Highlights</h2>
+        <div class="slide active"><h3>Campus Events</h3><p>Discover workshops, activities, and student gatherings.</p></div>
+        <div class="slide"><h3>Academic Support</h3><p>Find useful information and keep track of campus updates.</p></div>
+        <div class="slide"><h3>Student Community</h3><p>Stay connected with the StudentHub community.</p></div>
+        <div class="slider-controls">
+            <button id="previous-slide" type="button">Previous</button>
+            <button id="next-slide" type="button">Next</button>
+        </div>
+        <p id="slide-status" aria-live="polite">Slide 1 of 3</p>
+        <button id="open-modal" type="button">Learn More</button>
+    </section>
+    <div id="info-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+        <div class="modal-content">
+            <button id="close-modal" class="modal-close" type="button" aria-label="Close dialog">✕</button>
+            <h2 id="modal-title">About StudentHub</h2>
+            <p>StudentHub brings student information, campus events, and support links together in one place.</p>
+            <button id="modal-done" type="button">Got it</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 StudentHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
